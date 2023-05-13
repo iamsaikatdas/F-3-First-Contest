@@ -1,0 +1,36 @@
+div {
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgb(52, 52, 158);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.btn:hover {
+  box-shadow: 0 0 10px 0px red;
+}
+
+table {
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  width: 98vw;
+}
+th,
+td {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+th {
+  color: white;
+  background-color: green;
+}
